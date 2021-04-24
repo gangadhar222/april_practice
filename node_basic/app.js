@@ -1,5 +1,8 @@
+// one way
+// const helpers = require('./helpers')
 
-const helpers = require('./helpers')
+// the other way
+const {sum} = require('./helpers');
 
-const total = helpers.sum(2,3)
+const total = sum(2,3)
 console.log(total)
